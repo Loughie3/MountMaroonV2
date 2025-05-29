@@ -10,7 +10,7 @@
     <button
       v-if="currentIndex"
       @click="previousImage"
-      class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-blue-500 hover:bg-blue-700 cursor-pointer text-white font-bold px-4 py-2 rounded shadow"
+      class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-base-200 text-white hover:bg-cabin cursor-pointer font-bold px-4 py-2 rounded shadow"
     >
       Prev
     </button>
@@ -18,7 +18,7 @@
     <!-- Next Button -->
     <button
       @click="nextImage"
-      class="absolute top-1/2 right-0 transform -translate-y-1/2 bg-blue-500 text-white hover:bg-blue-700 cursor-pointer font-bold px-4 py-2 rounded shadow"
+      class="absolute top-1/2 right-0 transform -translate-y-1/2 bg-base-200 text-white hover:bg-cabin cursor-pointer font-bold px-4 py-2 rounded shadow"
     >
       Next
     </button>

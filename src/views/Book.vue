@@ -4,14 +4,10 @@
     title="Book Today"
   />
 
-  <section class="font-bold text-left mt-20 pl-30">
-    <p class="font-normal">
-      Please check the availability through the calendar below.
-    </p>
+  <section class="font-bold text-left mt-20 pl-30 text-cabin">
+    <p>Please check the availability through the calendar below.</p>
 
-    <p class="font-normal">
-      Click on the available date and make the booking through Airbnb
-    </p>
+    <p>Click on the available date and make the booking through Airbnb.</p>
   </section>
 
   <div class="px-30 py-10">

@@ -1,2 +1,14 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+body {
+  @apply bg-fog;
+}
+
+@theme {
+  --color-twilight: #c3b0a5;
+  --color-clay: #ded4cb;
+  --color-forest: #bad4b5;
+  --color-cabin: #704214;
+  --color-fog: #fefefe;
+}

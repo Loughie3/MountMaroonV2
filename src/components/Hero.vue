@@ -5,7 +5,10 @@
       <div>
         <h1 class="mb-5 text-5xl font-bold">{{ title }}</h1>
         <!--if We don't pass the prop to the parent component - Nothing is Displayed-->
-        <button v-if="buttonText" class="btn bg-black">
+        <button
+          v-if="buttonText"
+          class="btn bg-base-200 border-none hover:bg-cabin"
+        >
           <router-link to="/book">{{ buttonText }}</router-link>
         </button>
       </div>

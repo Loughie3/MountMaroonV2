@@ -6,35 +6,37 @@
     />
 
     <section
-      class="w-full grid grid-cols-1 md:grid-cols-2 p-20 md:p-20 gap-10 md:gap-20"
+      class="w-full grid grid-cols-1 md:grid-cols-2 p-20 md:p-20 gap-10 md:gap-20 text-cabin"
     >
-      <h1 class="col-span-1 md:col-span-2 text-center text-2xl md:text-3xl">
+      <h1
+        class="col-span-1 md:col-span-2 text-center font-bold text-2xl md:text-3xl"
+      >
         Get in touch
       </h1>
-      <div class="flex bg-grey items-center justify-center p-12">
-        <!-- Author: FormBold Team -->
-        <!-- Learn More: https://formbold.com -->
+
+      <div class="flex bg-grey items-center justify-center border-cabin p-12">
         <div class="mx-auto w-full max-w-[550px]">
-          <form action="https://formbold.com/s/FORM_ID" method="POST">
+          <form ref="form" @submit.prevent="sendEmail">
             <div class="mb-5">
               <label
                 for="name"
-                class="mb-3 block text-base font-medium text-[#07074D]"
+                class="mb-3 block text-base font-bold text-cabin"
               >
-                Full Name
+                Name
               </label>
               <input
                 type="text"
                 name="name"
                 id="name"
-                placeholder="Full Name"
-                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                placeholder="Name"
+                class="w-full text-cabin rounded-md border border-cabin bg-white py-3 px-6 text-base font-medium outline-none focus:border-cabin focus:shadow-md"
               />
             </div>
+
             <div class="mb-5">
               <label
                 for="email"
-                class="mb-3 block text-base font-medium text-[#07074D]"
+                class="mb-3 block text-base font-bold text-cabin"
               >
                 Email Address
               </label>
@@ -43,13 +45,14 @@
                 name="email"
                 id="email"
                 placeholder="example@domain.com"
-                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                class="w-full text-cabin rounded-md border border-cabin bg-white py-3 px-6 text-base font-medium outline-none focus:border-cabin focus:shadow-md"
               />
             </div>
+
             <div class="mb-5">
               <label
                 for="subject"
-                class="mb-3 block text-base font-medium text-[#07074D]"
+                class="mb-3 block text-base font-bold text-cabin"
               >
                 Subject
               </label>
@@ -58,13 +61,14 @@
                 name="subject"
                 id="subject"
                 placeholder="Enter your subject"
-                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                class="w-full text-cabin rounded-md border border-cabin bg-white py-3 px-6 text-base font-medium outline-none focus:border-cabin focus:shadow-md"
               />
             </div>
+
             <div class="mb-5">
               <label
                 for="message"
-                class="mb-3 block text-base font-medium text-[#07074D]"
+                class="mb-3 block text-base font-bold text-cabin"
               >
                 Message
               </label>
@@ -73,12 +77,13 @@
                 name="message"
                 id="message"
                 placeholder="Type your message"
-                class="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                class="w-full text-cabin resize-none rounded-md border border-cabin bg-white py-3 px-6 text-base font-medium outline-none focus:border-cabin focus:shadow-md"
               ></textarea>
             </div>
+
             <div>
               <button
-                class="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-base font-semibold text-white outline-none"
+                class="hover:shadow-form rounded-md hover:bg-base-200 cursor-pointer bg-cabin py-3 px-8 text-base font-semibold text-white outline-none"
               >
                 Submit
               </button>
@@ -86,6 +91,7 @@
           </form>
         </div>
       </div>
+
       <aside><img class="w-full h-auto" src="/src/assets/Misty.avif" /></aside>
     </section>
   </main>
@@ -116,10 +122,5 @@ export default {
 </script>
 
 <style>
-input {
-  border: 2px solid white;
-}
-label {
-  color: white;
-}
+/* You can remove or leave this empty */
 </style>

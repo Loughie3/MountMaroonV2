@@ -1,11 +1,12 @@
 <template>
-  <main>
+  <main class="text-cabin bg-fog">
     <Hero
       style="background-image: url('src/assets/Boonah.jpg')"
       buttonText="Book Now"
+      class="bg-olive text-ivory"
     />
     <!-- Welcome Section -->
-    <section class="p-20 mt-10 md:p-20 text-xl">
+    <section class="p-20 mt-10 md:p-20 text-xl mx-20">
       <div class="grid md:grid-cols-2 gap-20 items-center">
         <!-- TEXT SIDE -->
         <div>
@@ -54,7 +55,7 @@
     </section>
 
     <!-- The property -->
-    <section class="p-20 md:p-20 text-xl">
+    <section class="p-20 md:p-20 text-xl mx-20">
       <div class="grid md:grid-cols-2 gap-20 items-center">
         <!-- IMAGE SIDE -->
         <aside>
@@ -105,7 +106,7 @@
     </section>
 
     <!-- House Section -->
-    <section class="p-20 md:p-20 text-xl">
+    <section class="p-20 md:p-20 text-xl mx-20">
       <div class="grid md:grid-cols-2 gap-20 items-center">
         <!-- TEXT SIDE -->
         <div>
@@ -154,7 +155,7 @@
     </section>
 
     <!-- Testimonial Section -->
-    <section class="mx-5 md:mx-10 lg:mx-40">
+    <section class="mx-5 md:mx-10 lg:mx-40 ">
       <TestimonialSection />
     </section>
   </main>
