@@ -2,7 +2,7 @@
   <main>
     <Hero
       style="
-        background-image: url('src/assets/Outsidehouseview.jpg');
+        background-image: url('/MountMaroonV2/OutsideHouseView.jpg');
         background-position: center;
       "
       title="Contact Us"
@@ -12,7 +12,7 @@
       class="w-full grid grid-cols-1 md:grid-cols-2 p-20 md:p-20 gap-10 md:gap-20 text-cabin"
     >
       <h1
-        class="col-span-1 md:col-span-2 text-center font-bold text-2xl md:text-3xl"
+        class="col-span-1 md:col-span-2 text-center font-bold text-3xl md:text-4xl"
       >
         Get in touch
       </h1>
@@ -114,7 +114,9 @@
         </div>
       </div>
 
-      <aside><img class="w-full h-auto" src="/src/assets/Misty.avif" /></aside>
+      <aside>
+        <img class="w-full h-auto" src="/MountMaroonV2/Misty.avif" />
+      </aside>
     </section>
   </main>
 </template>

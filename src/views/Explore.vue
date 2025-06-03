@@ -2,15 +2,15 @@
   <Hero
     title="Explore the Scenic Rim"
     style="
-      background-image: url('src/assets/view.avif');
-      background-position: center 50%;
+      background-image: url('/MountMaroonV2/view.avif');
+      background-position: center 40%;
     "
   />
   <main class="grid md:grid-cols-1 items-center">
-    <section class="md:px-20 text-xl text-cabin">
+    <section class="text-xl text-cabin p-5 py-20 md:mx-20 mx-10 md:p-20">
       <!-- TEXT SIDE -->
-      <div class="my-20 mx-40">
-        <h2 class="text-4xl text-center font-bold mb-6">
+      <div>
+        <h2 class="text-3xl md:text-4xl text-center font-bold mb-6">
           The Scenic Rim
           <hr class="mt-4" />
         </h2>
@@ -34,8 +34,8 @@
           regions to travel to in 2022 by Lonely Planet.
         </p>
       </div>
-      <div class="my-30 mx-40">
-        <h2 class="text-4xl text-center font-bold mb-6">
+      <div>
+        <h2 class="text-3xl md:text-4xl pt-20 text-center font-bold mb-6">
           Nearby recommendations
           <hr class="mt-4" />
         </h2>

@@ -15,10 +15,9 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory("/MountMaroonV2/"),
   routes,
   scrollBehavior() {
-    // always scroll to top
     return { top: 0 };
   },
 });

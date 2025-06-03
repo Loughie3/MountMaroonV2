@@ -5,7 +5,7 @@
       <div class="navbar-start">
         <a
           href="/"
-          class="btn hover:bg-cabin border-none rounded-md btn-ghost text-2xl"
+          class="btn hover:bg-cabin border-none rounded-md btn-ghost flex text-2xl"
         >
           Mount Maroon View Farm Stay
         </a>

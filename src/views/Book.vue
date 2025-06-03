@@ -1,7 +1,7 @@
 <template>
   <Hero
     style="
-      background-image: url('src/assets/farm.avif');
+      background-image: url('/MountMaroonV2/farm.avif');
       background-position: center;
     "
     title="Book Today"

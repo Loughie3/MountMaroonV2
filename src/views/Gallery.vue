@@ -1,7 +1,7 @@
 <template>
   <main class="bg-fog text-cabin min-h-screen p-20 grid text-center">
     <section>
-      <h1 class="my-20 text-4xl font-bold">The Property</h1>
+      <h1 class="my-20 text-3xl md:text-4xl font-bold">The Property</h1>
       <div class="grid-cols-1 md:grid-cols-3 grid gap-4">
         <a
           v-for="image in propertyImages"
@@ -18,7 +18,7 @@
       </div>
     </section>
     <section>
-      <h1 class="my-20 text-4xl font-bold">Animals and wildlife</h1>
+      <h1 class="my-20 text-3xl md:text-4xl font-bold">Animals and wildlife</h1>
       <div class="grid-cols-1 md:grid-cols-3 grid gap-4">
         <a
           v-for="image in animalImages"
@@ -35,7 +35,7 @@
       </div>
     </section>
     <section>
-      <h1 class="my-20 text-4xl font-bold">The House</h1>
+      <h1 class="my-20 text-3xl md:text-4xl font-bold">The House</h1>
       <div class="grid-cols-1 md:grid-cols-3 grid gap-4">
         <a
           v-for="image in houseImages"
@@ -60,34 +60,34 @@ export default {
   data() {
     return {
       propertyImages: [
-        { src: "./src/assets/Misty.avif" },
-        { src: "./src/assets/rainbow.avif" },
-        { src: "./src/assets/dam.jpg" },
-        { src: "./src/assets/farm.avif" },
-        { src: "./src/assets/fire.avif" },
-        { src: "./src/assets/view.avif" },
-        { src: "./src/assets/Sunset.avif" },
-        { src: "./src/assets/mistMountain.jpg" },
-        { src: "./src/assets/sunSet.jpg" },
+        { src: "/MountMaroonV2/Misty.avif" },
+        { src: "/MountMaroonV2/rainbow.avif" },
+        { src: "/MountMaroonV2/dam.jpg" },
+        { src: "/MountMaroonV2/farm.avif" },
+        { src: "/MountMaroonV2/fire.avif" },
+        { src: "/MountMaroonV2/view.avif" },
+        { src: "/MountMaroonV2/Sunset.avif" },
+        { src: "/MountMaroonV2/mistMountain.jpg" },
+        { src: "/MountMaroonV2/sunSet.jpg" },
       ],
       animalImages: [
-        { src: "./src/assets/lamb.avif" },
-        { src: "./src/assets/horse1.avif" },
-        { src: "./src/assets/frog.avif" },
-        { src: "./src/assets/parrot.avif" },
-        { src: "./src/assets/galah.avif" },
-        { src: "./src/assets/kangaroo.avif" },
-        { src: "./src/assets/sheep.avif" },
-        { src: "./src/assets/horse.jpeg" },
-        { src: "./src/assets/mistyHorse.jpg" },
+        { src: "/MountMaroonV2/lamb.avif" },
+        { src: "/MountMaroonV2/horse1.avif" },
+        { src: "/MountMaroonV2/frog.avif" },
+        { src: "/MountMaroonV2/parrot.avif" },
+        { src: "/MountMaroonV2/galah.avif" },
+        { src: "/MountMaroonV2/kangaroo.avif" },
+        { src: "/MountMaroonV2/sheep.avif" },
+        { src: "/MountMaroonV2/horse.jpeg" },
+        { src: "/MountMaroonV2/mistyHorse.jpg" },
       ],
       houseImages: [
-        { src: "./src/assets/House1.avif" },
-        { src: "./src/assets/House2.avif" },
-        { src: "./src/assets/House3.avif" },
-        { src: "./src/assets/Boonah.jpg" },
-        { src: "./src/assets/OutsideHouse.jpg" },
-        { src: "./src/assets/OutsideHouseView.jpg" },
+        { src: "/MountMaroonV2/House1.avif" },
+        { src: "/MountMaroonV2/House2.avif" },
+        { src: "/MountMaroonV2/House3.avif" },
+        { src: "/MountMaroonV2/Boonah.jpg" },
+        { src: "/MountMaroonV2/OutsideHouse.jpg" },
+        { src: "/MountMaroonV2/OutsideHouseView.jpg" },
       ],
     };
   },

@@ -1,13 +1,15 @@
 <template>
-  <div class="hero min-h-screen brightness-150 bg-[position:bottom]">
+  <div
+    class="hero min-h-screen saturate-90 brightness-150 bg-[position:bottom]"
+  >
     <div class="hero-overlay"></div>
     <div class="hero-content text-neutral-content text-center">
       <div>
-        <h1 class="mb-5 text-5xl font-bold">{{ title }}</h1>
+        <h1 class="mb-10 md:text-5xl text-4xl font-bold">{{ title }}</h1>
         <!--if We don't pass the prop to the parent component - Nothing is Displayed-->
         <button
           v-if="buttonText"
-          class="btn bg-custom border-none hover:bg-cabin"
+          class="btn bg-custom border-none brightness-80 text-xl hover:bg-cabin"
         >
           <router-link to="/book">{{ buttonText }}</router-link>
         </button>

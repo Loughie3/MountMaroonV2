@@ -1,15 +1,17 @@
 <template>
   <main class="text-cabin bg-fog">
     <Hero
-      style="background-image: url('src/assets/Boonah.jpg')"
+      style="background-image: url('/MountMaroonV2/Boonah.jpg')"
       buttonText="Book Now"
     />
     <!-- Welcome Section -->
-    <section class="p-20 mt-10 md:p-20 text-xl mx-20">
+    <section class="mt-10 text-xl p-5 md:mx-20 mx-10 md:p-20">
       <div class="grid md:grid-cols-2 gap-20 items-center">
         <!-- TEXT SIDE -->
         <div>
-          <h2 class="text-4xl text-center font-custom font-bold mb-6">
+          <h2
+            class="text-3xl md:text-4xl text-center font-custom font-bold mb-6"
+          >
             Welcome To Mount Maroon View Farm Stay
             <hr class="mt-4" />
           </h2>
@@ -43,7 +45,7 @@
           <div class="card bg-base-100 shadow-sm">
             <figure>
               <img
-                src="/src/assets/Sunset.avif"
+                src="/MountMaroonV2/Sunset.avif"
                 alt="Sunset in Boonah"
                 class="w-full h-auto object-cover rounded-lg"
               />
@@ -54,14 +56,14 @@
     </section>
 
     <!-- The property -->
-    <section class="p-20 md:p-20 text-xl mx-20">
+    <section class="p-5 mt-10 text-xl md:mx-20 mx-10 md:p-20">
       <div class="grid md:grid-cols-2 gap-20 items-center">
         <!-- IMAGE SIDE -->
         <aside>
           <div class="card bg-base-100 shadow-sm">
             <figure>
               <video
-                src="../assets/video.mp4"
+                src="/MountMaroonV2/Video.mp4"
                 autoplay
                 muted
                 loop
@@ -73,7 +75,7 @@
         </aside>
         <!-- TEXT SIDE -->
         <div>
-          <h2 class="text-4xl text-center font-bold mb-6">
+          <h2 class="text-3xl md:text-4xl text-center font-bold mb-6">
             The Property
             <hr class="mt-4" />
           </h2>
@@ -107,11 +109,11 @@
     </section>
 
     <!-- House Section -->
-    <section class="p-20 md:p-20 text-xl mx-20">
+    <section class="p-5 mt-10 text-xl md:mx-20 mx-10 md:p-20">
       <div class="grid md:grid-cols-2 gap-20 items-center">
         <!-- TEXT SIDE -->
         <div>
-          <h2 class="text-4xl text-center font-bold mb-6">
+          <h2 class="text-3xl md:text-4xl text-center font-bold mb-6">
             The House
             <hr class="mt-4" />
           </h2>
@@ -150,7 +152,7 @@
     <!-- Banner Image Section -->
     <section class="h-[30vh] max-w-screen flex justify-center mt-20 mb-20">
       <img
-        src="/src/assets/Banner.avif"
+        src="/MountMaroonV2/Banner.avif"
         alt="Sunset Banner"
         class="w-full h-full object-cover"
       />
