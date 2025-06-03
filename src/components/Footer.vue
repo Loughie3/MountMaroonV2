@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="footer footer-horizontal footer-center bg-cabin text-base-content rounded p-5 mt-20"
+    class="footer footer-horizontal footer-center bg-custom text-base-content rounded p-5 mt-20"
   >
     <nav class="grid grid-flow-col gap-4">
       <ul class="menu menu-horizontal text-fog font-semibold px-4 text-lg">
@@ -33,7 +33,9 @@
             ></path>
           </svg>
         </a>
-        <a>
+        <a
+          href="https://www.facebook.com/p/Mt-Maroon-View-Farm-Stay-100086182662778/"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"

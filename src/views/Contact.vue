@@ -1,7 +1,10 @@
 <template>
   <main>
     <Hero
-      style="background-image: url('src/assets/Outsidehouseview.jpg')"
+      style="
+        background-image: url('src/assets/Outsidehouseview.jpg');
+        background-position: center;
+      "
       title="Contact Us"
     />
 
@@ -25,6 +28,7 @@
                 Name
               </label>
               <input
+                required
                 type="text"
                 name="name"
                 id="name"
@@ -42,6 +46,7 @@
               </label>
               <input
                 type="email"
+                required
                 name="email"
                 id="email"
                 placeholder="example@domain.com"
@@ -73,6 +78,7 @@
                 Message
               </label>
               <textarea
+                required
                 rows="4"
                 name="message"
                 id="message"
@@ -83,10 +89,23 @@
 
             <div>
               <button
-                class="hover:shadow-form rounded-md hover:bg-base-200 cursor-pointer bg-cabin py-3 px-8 text-base font-semibold text-white outline-none"
+                class="hover:shadow-form rounded-md btn hover:bg-custom cursor-pointer bg-cabin py-3 px-8 text-base font-semibold text-white outline-none"
               >
                 Submit
               </button>
+              <dialog id="my_modal_2" ref="modal" class="modal text-clay">
+                <div class="modal-box bg-custom">
+                  <h3 class="text-lg font-bold">Email Sent Successfully</h3>
+                  <hr />
+                  <p class="py-4">
+                    Thank you for your email, we will get back to you as soon as
+                    possible.
+                  </p>
+                </div>
+                <form method="dialog" class="modal-backdrop">
+                  <button @click="closeModalRefresh">close</button>
+                </form>
+              </dialog>
             </div>
           </form>
         </div>
@@ -110,12 +129,16 @@ export default {
         })
         .then(
           () => {
-            console.log("SUCCESS!");
+            this.$refs.modal.showModal();
           },
+
           (error) => {
             console.log("FAILED...", error.text);
           }
         );
+    },
+    closeModalRefresh() {
+      location.reload();
     },
   },
 };

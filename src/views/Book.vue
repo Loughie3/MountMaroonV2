@@ -1,6 +1,9 @@
 <template>
   <Hero
-    style="background-image: url('src/assets/Misty.avif')"
+    style="
+      background-image: url('src/assets/farm.avif');
+      background-position: center;
+    "
     title="Book Today"
   />
 
@@ -8,6 +11,10 @@
     <p>Please check the availability through the calendar below.</p>
 
     <p>Click on the available date and make the booking through Airbnb.</p>
+    <p>
+      *Available dates below may be inaccurate, please confirm on Airbnb
+      Website*
+    </p>
   </section>
 
   <div class="px-30 py-10">

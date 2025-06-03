@@ -7,7 +7,7 @@
         <!--if We don't pass the prop to the parent component - Nothing is Displayed-->
         <button
           v-if="buttonText"
-          class="btn bg-base-200 border-none hover:bg-cabin"
+          class="btn bg-custom border-none hover:bg-cabin"
         >
           <router-link to="/book">{{ buttonText }}</router-link>
         </button>
@@ -21,7 +21,7 @@ export default {
   props: {
     title: {
       type: String,
-      default: "Mount Maroon Farm Stay",
+      default: "Mt Maroon View Farm Stay",
     },
     buttonText: {
       type: String,

@@ -3,19 +3,18 @@
     <Hero
       style="background-image: url('src/assets/Boonah.jpg')"
       buttonText="Book Now"
-      class="bg-olive text-ivory"
     />
     <!-- Welcome Section -->
     <section class="p-20 mt-10 md:p-20 text-xl mx-20">
       <div class="grid md:grid-cols-2 gap-20 items-center">
         <!-- TEXT SIDE -->
         <div>
-          <h2 class="text-4xl text-center font-bold mb-6">
-            Welcome To Mount Maroon Farm Stay
+          <h2 class="text-4xl text-center font-custom font-bold mb-6">
+            Welcome To Mount Maroon View Farm Stay
             <hr class="mt-4" />
           </h2>
 
-          <p class="mb-4 font-bold">
+          <p class="mb-4 font-bold font-custom">
             Nestled in the heart of the Scenic Rim, take a break and unwind at
             this secluded couples retreat. With majestic views of Mt Maroon and
             surrounding mountains.
@@ -34,8 +33,8 @@
           <p>
             The farmhouse is perched on the highest point of the property,
             commanding 180° views of the valley and mountains. Enjoy the
-            changing colours of Mt Maroon from two decks and wander across five
-            paddocks.
+            ever-changing colours of Mt Maroon from two decks and wander across
+            five paddocks.
           </p>
         </div>
 
@@ -79,27 +78,29 @@
             <hr class="mt-4" />
           </h2>
           <p class="mb-4 font-bold">
-            There are 24 Sheep and two cheeky horses that love to get a carrot
-            or apple. They may even go for a walk with you in the main paddock.
+            Our farm is home to 24 sheep and two friendly, cheeky horses who are
+            always keen for a snack—carrots and apples are their favourites!
+            Guests are welcome to feed them and wander the paddocks. If you are
+            lucky you will see the heartwarming sight of baby lambs exploring
+            their new world.
           </p>
           <p class="mb-4">
-            Our house is very spacious for a couple with three decks and out
-            door undercover areas to enjoy the views. There are fold out tables
-            supplied for outdoor dining . Two hammocks available as well . There
-            is a HD TV and an open Netflicks account ,but no WiFi or Free to Air
-            .Mobile service works well for 4G telstra for hot spotting. The
-            kitchen is set up for self-catering and has a microwave, oven,
-            kettle and toaster with pantry staples and a well stocked spice
-            rack. Or perhaps cook a wood fire pizza.
+            The nearest supermarket is in Boonah (Drakes IGA). While you're in
+            town, be sure to stop by Oppy's Fruit and Veg for fresh, local
+            produce. We also highly recommend the two excellent butchers in
+            Boonah for quality meat.
+          </p>
+          <p class="mb-4">
+            On clear nights, gather around the fire pit and soak up the peaceful
+            rural atmosphere under the stars. Please note that fire restrictions
+            can apply from time to time, depending on the season. Extra firewood
+            is available for purchase at the farm if you'd like to keep the
+            flames going a little longer.
           </p>
           <p>
-            The nearest supermarket is in Boonah, (Drakes IGA) call into Oppy's
-            fruit and Veg for local fresh produce. We can recommend the two
-            quality butchers in town for supplies. Fire pit outside (weather
-            permitting) and being in a rural area, fire restrictions are
-            sometimes in place . There is extra wood for sale at the Farm. There
-            is an office work space complete with extra monitor (if you need to
-            work )
+            If you need to work during your stay, there's a dedicated office
+            space complete with an extra monitor to help you stay productive
+            while enjoying the peaceful surroundings.
           </p>
         </div>
       </div>
@@ -135,6 +136,7 @@
             <li>Oven + Electric Stove Top</li>
             <li>Indoor/Outdoor Fire Pit</li>
             <li>Hammocks</li>
+            <li>Office with a Computer monitor</li>
           </ul>
         </div>
 
@@ -155,7 +157,7 @@
     </section>
 
     <!-- Testimonial Section -->
-    <section class="mx-5 md:mx-10 lg:mx-40 ">
+    <section class="mx-5 md:mx-10 lg:mx-40">
       <TestimonialSection />
     </section>
   </main>

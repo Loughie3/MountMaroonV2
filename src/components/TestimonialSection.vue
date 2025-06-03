@@ -3,7 +3,7 @@
     <h1 class="text-4xl text-center font-bold mb-6">Reviews</h1>
 
     <section
-      class="px-10 py-10 w-full overflow-y-auto border-5 rounded-lg"
+      class="px-10 py-10 w-full overflow-y-auto border-custom border-5 rounded-lg"
       style="max-height: 600px"
     >
       <div class="sk-ww-airbnb-reviews" :data-embed-id="embedId"></div>

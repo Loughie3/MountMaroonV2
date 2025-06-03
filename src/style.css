@@ -1,14 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius&display=swap");
 @import "tailwindcss";
+
 @plugin "daisyui";
 
-body {
-  @apply bg-fog;
-}
-
 @theme {
+  --font-custom: "Delius", cursive;
   --color-twilight: #c3b0a5;
   --color-clay: #ded4cb;
   --color-forest: #bad4b5;
   --color-cabin: #704214;
   --color-fog: #fefefe;
+  --color-custom: #6a7554;
+}
+
+body {
+  @apply bg-fog;
+  @apply font-custom;
 }

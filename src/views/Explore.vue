@@ -1,8 +1,15 @@
 <template>
+  <Hero
+    title="Explore the Scenic Rim"
+    style="
+      background-image: url('src/assets/view.avif');
+      background-position: center 50%;
+    "
+  />
   <main class="grid md:grid-cols-1 items-center">
-    <section class="p-20 md:p-20 text-xl text-cabin">
+    <section class="md:px-20 text-xl text-cabin">
       <!-- TEXT SIDE -->
-      <div class="my-40 mx-40">
+      <div class="my-20 mx-40">
         <h2 class="text-4xl text-center font-bold mb-6">
           The Scenic Rim
           <hr class="mt-4" />
@@ -27,7 +34,7 @@
           regions to travel to in 2022 by Lonely Planet.
         </p>
       </div>
-      <div class="my-40 mx-40">
+      <div class="my-30 mx-40">
         <h2 class="text-4xl text-center font-bold mb-6">
           Nearby recommendations
           <hr class="mt-4" />
@@ -37,7 +44,7 @@
             <a
               class="font-bold text-2xl hover:text-forest"
               href=" https://www.aussiebushwalking.com/qld/se-qld/mt-barney-np/lower-portals"
-              >The Lower Portals Track:</a
+              >The Lower Portals Hiking Track:</a
             >
             <p>
               The Lower Portals are a serene section of the Mount Barney
@@ -49,6 +56,7 @@
               spotting in a tranquil, unspoiled setting.
             </p>
           </li>
+
           <li>
             <a
               class="font-bold text-2xl hover:text-forest"
@@ -69,7 +77,10 @@
 </template>
 
 <script>
-export default {};
+import Hero from "../components/Hero.vue";
+export default {
+  components: { Hero },
+};
 </script>
 
 <style></style>
