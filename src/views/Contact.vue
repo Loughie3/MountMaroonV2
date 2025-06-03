@@ -56,16 +56,19 @@
 
             <div class="mb-5">
               <label
-                for="subject"
+                for="number"
                 class="mb-3 block text-base font-bold text-cabin"
               >
-                Subject
+                Phone Number
               </label>
               <input
-                type="text"
-                name="subject"
-                id="subject"
-                placeholder="Enter your subject"
+                type="tel"
+                name="number"
+                id="number"
+                placeholder="Phone number"
+                maxlength="12"
+                pattern="[0-9]*"
+                inputmode="numeric"
                 class="w-full text-cabin rounded-md border border-cabin bg-white py-3 px-6 text-base font-medium outline-none focus:border-cabin focus:shadow-md"
               />
             </div>
@@ -124,9 +127,14 @@ export default {
   methods: {
     sendEmail() {
       emailjs
-        .sendForm("service_782v726", "template_4wt4phr", this.$refs.form, {
-          publicKey: "7SreG1RwN4Y_f0fzK",
-        })
+        .sendForm(
+          import.meta.env.VITE_EMAILJS_SERVICE_ID,
+          import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+          this.$refs.form,
+          {
+            publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+          }
+        )
         .then(
           () => {
             this.$refs.modal.showModal();
