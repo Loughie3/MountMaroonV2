@@ -31,14 +31,14 @@ export default {
     return {
       currentIndex: 0,
       house: [
-        { src: "/MountMaroonV2/OutsideHouseView.jpg" },
-        { src: "/MountMaroonV2/House1.avif" },
-        { src: "/MountMaroonV2/House2.avif" },
-        { src: "/MountMaroonV2/House3.avif" },
-        { src: "/MountMaroonV2/House4.avif" },
-        { src: "/MountMaroonV2/horse1.avif" },
-        { src: "/MountMaroonV2/sheep.avif" },
-        { src: "/MountMaroonV2/horse.jpeg" },
+        { src: "OutsideHouseView.jpg" },
+        { src: "House1.avif" },
+        { src: "House2.avif" },
+        { src: "House3.avif" },
+        { src: "House4.avif" },
+        { src: "horse1.avif" },
+        { src: "sheep.avif" },
+        { src: "horse.jpeg" },
       ],
     };
   },

@@ -1,9 +1,6 @@
 <template>
   <main class="text-cabin bg-fog">
-    <Hero
-      style="background-image: url('/MountMaroonV2/Boonah.jpg')"
-      buttonText="Book Now"
-    />
+    <Hero style="background-image: url('Boonah.jpg')" buttonText="Book Now" />
     <!-- Welcome Section -->
     <section class="mt-10 text-xl p-5 md:mx-20 mx-10 md:p-20">
       <div class="grid md:grid-cols-2 gap-20 items-center">
@@ -45,7 +42,7 @@
           <div class="card bg-base-100 shadow-sm">
             <figure>
               <img
-                src="/MountMaroonV2/Sunset.avif"
+                src="/Sunset.avif"
                 alt="Sunset in Boonah"
                 class="w-full h-auto object-cover rounded-lg"
               />
@@ -63,7 +60,7 @@
           <div class="card bg-base-100 shadow-sm">
             <figure>
               <video
-                src="/MountMaroonV2/Video.mp4"
+                src="/Video.mp4"
                 autoplay
                 muted
                 loop
@@ -152,7 +149,7 @@
     <!-- Banner Image Section -->
     <section class="h-[30vh] max-w-screen flex justify-center mt-20 mb-20">
       <img
-        src="/MountMaroonV2/Banner.avif"
+        src="/Banner.avif"
         alt="Sunset Banner"
         class="w-full h-full object-cover"
       />

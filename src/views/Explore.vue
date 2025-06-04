@@ -1,10 +1,7 @@
 <template>
   <Hero
     title="Explore the Scenic Rim"
-    style="
-      background-image: url('/MountMaroonV2/view.avif');
-      background-position: center 40%;
-    "
+    style="background-image: url('view.avif'); background-position: center 40%"
   />
   <main class="grid md:grid-cols-1 items-center">
     <section class="text-xl text-cabin p-5 py-20 md:mx-20 mx-10 md:p-20">
