@@ -148,7 +148,8 @@ export default {
         );
     },
     closeModalRefresh() {
-      location.reload();
+      this.$refs.form.reset();
+      this.$refs.modal.close();
     },
   },
 };
