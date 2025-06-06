@@ -4,10 +4,10 @@
     style="background-image: url('view.avif'); background-position: center 40%"
   />
   <main class="grid md:grid-cols-1 items-center">
-    <section class="text-xl text-cabin p-5 py-20 md:mx-20 mx-10 md:p-20">
+    <section class="text-xl text-cabin py-5 py-20 md:mx-20 mx-10 md:p-20">
       <!-- TEXT SIDE -->
       <div>
-        <h2 class="text-3xl md:text-4xl text-center font-bold mb-6">
+        <h2 class="text-3xl md:text-5xl text-center font-bold mb-6">
           The Scenic Rim
           <hr class="mt-4" />
         </h2>
@@ -32,7 +32,7 @@
         </p>
       </div>
       <div>
-        <h2 class="text-3xl md:text-4xl pt-20 text-center font-bold mb-6">
+        <h2 class="text-3xl md:text-5xl pt-20 text-center font-bold mb-6">
           Nearby recommendations
           <hr class="mt-4" />
         </h2>

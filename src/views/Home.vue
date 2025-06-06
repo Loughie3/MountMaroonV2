@@ -2,12 +2,12 @@
   <main class="text-cabin bg-fog">
     <Hero style="background-image: url('Boonah.jpg')" buttonText="Book Now" />
     <!-- Welcome Section -->
-    <section class="mt-10 text-xl p-5 md:mx-20 mx-10 md:p-20">
+    <section class="mt-10 text-xl md:mx-20 mx-10 py-5 md:p-10">
       <div class="grid md:grid-cols-2 gap-20 items-center">
         <!-- TEXT SIDE -->
         <div>
           <h2
-            class="text-3xl md:text-4xl text-center font-custom font-bold mb-6"
+            class="text-3xl md:text-5xl text-center font-custom font-bold mb-6"
           >
             Welcome To Mount Maroon View Farm Stay
             <hr class="mt-4" />
@@ -53,7 +53,7 @@
     </section>
 
     <!-- The property -->
-    <section class="p-5 mt-10 text-xl md:mx-20 mx-10 md:p-20">
+    <section class="py-5 mt-10 text-xl md:mx-20 mx-10 md:p-20">
       <div class="grid md:grid-cols-2 gap-20 items-center">
         <!-- IMAGE SIDE -->
         <aside>
@@ -72,7 +72,7 @@
         </aside>
         <!-- TEXT SIDE -->
         <div>
-          <h2 class="text-3xl md:text-4xl text-center font-bold mb-6">
+          <h2 class="text-3xl md:text-5xl text-center font-bold mb-6">
             The Property
             <hr class="mt-4" />
           </h2>
@@ -106,11 +106,11 @@
     </section>
 
     <!-- House Section -->
-    <section class="p-5 mt-10 text-xl md:mx-20 mx-10 md:p-20">
+    <section class="py-5 mt-10 text-xl md:mx-20 mx-10 md:p-20">
       <div class="grid md:grid-cols-2 gap-20 items-center">
         <!-- TEXT SIDE -->
         <div>
-          <h2 class="text-3xl md:text-4xl text-center font-bold mb-6">
+          <h2 class="text-3xl md:text-5xl text-center font-bold mb-6">
             The House
             <hr class="mt-4" />
           </h2>
@@ -124,7 +124,7 @@
             TV and an open Netflix account.
           </p>
 
-          <h2 class="text-xl font-semibold mb-2">House Features:</h2>
+          <h3 class="text-xl font-semibold mb-2">House Features:</h3>
           <ul class="list-disc list-inside space-y-1">
             <li>1x Queen Sized Bed</li>
             <li>HD TV</li>

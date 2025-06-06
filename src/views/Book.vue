@@ -4,7 +4,7 @@
     title="Book Today"
   />
 
-  <section class="font-bold text-left mt-20 pl-30 text-cabin">
+  <section class="font-bold mt-20 px-10 text-center text-cabin">
     <p>Please check the availability through the calendar below.</p>
 
     <p>Click on the available date and make the booking through Airbnb.</p>
@@ -14,7 +14,7 @@
     </p>
   </section>
 
-  <div class="px-30 py-10">
+  <div class="sm:mx-10 py-10 overflow-x-auto max-w-full">
     <div class="sk-ww-airbnb-calendar" :data-embed-id="embedId"></div>
   </div>
 </template>

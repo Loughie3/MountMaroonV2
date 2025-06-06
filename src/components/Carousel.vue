@@ -6,21 +6,50 @@
       :src="house[currentIndex].src"
     />
 
-    <!-- Prev Button -->
     <button
       v-if="currentIndex"
       @click="previousImage"
-      class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-custom text-white hover:bg-cabin cursor-pointer font-bold px-4 py-2 rounded shadow"
+      class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-custom/80 backdrop-blur text-white hover:bg-cabin transition-all duration-200 p-3 rounded-full shadow-lg"
     >
-      Prev
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-5 w-5"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M15 19l-7-7 7-7"
+        />
+      </svg>
     </button>
 
     <!-- Next Button -->
+
     <button
       @click="nextImage"
-      class="absolute top-1/2 right-0 transform -translate-y-1/2 bg-custom text-white hover:bg-cabin cursor-pointer font-bold px-4 py-2 rounded shadow"
+      :class="[
+        'absolute top-1/2 right-4 transform -translate-y-1/2 bg-custom/80 backdrop-blur text-white hover:bg-cabin transition-all duration-200 p-3 rounded-full shadow-lg',
+        currentIndex === 0 ? 'animate-pulse' : '',
+      ]"
     >
-      Next
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-5 w-5"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M9 5l7 7-7 7"
+        />
+      </svg>
     </button>
   </div>
 </template>

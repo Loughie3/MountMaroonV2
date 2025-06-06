@@ -9,16 +9,16 @@
     />
 
     <section
-      class="w-full grid grid-cols-1 md:grid-cols-2 p-20 md:p-20 gap-10 md:gap-20 text-cabin"
+      class="w-full grid grid-cols-1 md:grid-cols-2 px-5 pt-20 md:px-20 gap-10 md:gap-20 text-cabin"
     >
       <h1
-        class="col-span-1 md:col-span-2 text-center font-bold text-3xl md:text-4xl"
+        class="col-span-1 md:col-span-2 text-center font-bold text-3xl md:text-5xl"
       >
         Get in touch
       </h1>
 
-      <div class="flex bg-grey items-center justify-center border-cabin p-12">
-        <div class="mx-auto w-full max-w-[550px]">
+      <div class="flex bg-grey items-center justify-center border-cabin">
+        <div class="mx-auto w-full max-w-[700px]">
           <form ref="form" @submit.prevent="sendEmail">
             <div class="mb-5">
               <label

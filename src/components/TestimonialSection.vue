@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h1 class="text-3xl md:text-4xl text-center font-bold mb-6">Reviews</h1>
+    <h1 class="text-3xl md:text-5xl text-center font-bold mb-6">Reviews</h1>
 
     <section
       class="px-10 py-10 w-full shadow-2xl overflow-y-auto rounded-lg"

@@ -1,7 +1,7 @@
 <template>
-  <main class="bg-fog text-cabin min-h-screen p-20 grid text-center">
+  <main class="bg-fog text-cabin min-h-screen p-5 md:p-20 grid text-center">
     <section>
-      <h1 class="my-20 text-3xl md:text-4xl font-bold">The Property</h1>
+      <h1 class="my-20 text-3xl md:text-5xl font-bold">The Property</h1>
       <div class="grid-cols-1 md:grid-cols-3 grid gap-4">
         <a
           v-for="image in propertyImages"
@@ -18,7 +18,7 @@
       </div>
     </section>
     <section>
-      <h1 class="my-20 text-3xl md:text-4xl font-bold">Animals and wildlife</h1>
+      <h1 class="my-20 text-3xl md:text-5xl font-bold">Animals and wildlife</h1>
       <div class="grid-cols-1 md:grid-cols-3 grid gap-4">
         <a
           v-for="image in animalImages"
@@ -35,7 +35,7 @@
       </div>
     </section>
     <section>
-      <h1 class="my-20 text-3xl md:text-4xl font-bold">The House</h1>
+      <h1 class="my-20 text-3xl md:text-5xl font-bold">The House</h1>
       <div class="grid-cols-1 md:grid-cols-3 grid gap-4">
         <a
           v-for="image in houseImages"

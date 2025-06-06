@@ -2,14 +2,14 @@
   <header>
     <nav class="navbar bg-custom fixed shadow-sm z-10">
       <!-- START (left - brand only) -->
-      <div class="navbar-start">
+      <h2 class="navbar-start">
         <router-link
           to="/"
-          class="btn hover:bg-cabin border-none rounded-md btn-ghost flex text-2xl"
+          class="btn hover:bg-cabin border-none rounded-md btn-ghost flex text-2xl sm:text-4xl"
         >
           Mount Maroon View Farm Stay
         </router-link>
-      </div>
+      </h2>
 
       <!-- END (right - menu and mobile dropdown) -->
       <div class="navbar-end">
